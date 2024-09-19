@@ -9,7 +9,7 @@ import FinishScreen from "./Components/FinishScreen";
 import Timer from "./Components/Timer";
 import Footer from "./Components/Footer";
 import NextButton from "./Components/NextButton";
-import { useQuiz } from "../context/QuizContext";
+import { useQuiz } from "./context/QuizContext";
 
 function App() {
   const { status } = useQuiz();
